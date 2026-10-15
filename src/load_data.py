@@ -12,3 +12,9 @@ The loaded data.
 
 if __name__ == "__main__":
     print(load_data(sys.argv[1]).head())
+
+def count_lettrs(str)
+    counter = 0
+    for i in str:
+        counter += 1
+    return counter
