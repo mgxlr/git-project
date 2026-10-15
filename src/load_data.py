@@ -8,7 +8,7 @@ path: Relative path to the CSV file.
 Returns:
 The loaded data.
 """
-    return pd.read_csv(path, encoding="utf-8-sig")
+    return pd.read_csv(path, sep=",")
 
 if __name__ == "__main__":
     print(load_data(sys.argv[1]).head())
